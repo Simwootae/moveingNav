@@ -1,0 +1,66 @@
+/* border: 1px solid red; */
+*{    margin: 0;    padding: 0;    list-style: none;    box-sizing: border-box;    text-decoration: none;    }
+
+/* 네비 */
+.navigation
+{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+    background-color: rgb(30, 30, 128);
+    color: white;
+    transition: all 1s;
+    z-index: 1000;
+}
+
+/* 네비2 */
+.topNav
+{
+    position: absolute;
+    width: 100%;
+    top: 7.6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: transparent;
+    color: white;
+}
+
+.topNav ul
+{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.topNav ul #act  {color:orange}
+.topNav ul li{transition: all 1s;}
+.topNav ul li:hover {color: orange;}
+.topNav .right{width: 12%;}
+.topNav .right span i{transition: all 1s;}
+.topNav .right span i:hover{color: orange;}
+.topNav ul li{    padding-left: 1%;}
+.topNav .right span{padding-left: 1%;}
+.topNav .right span button
+{
+    padding: 5% 10%;
+    border: transparent;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    transition: all 1s;
+}
+.topNav .right span button:hover{color: black; background-color: white;}
+
+.topsection
+{
+    background-image: url("./images/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
