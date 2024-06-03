@@ -7,7 +7,7 @@ function fixed()
     {
         console.log(window.scrollY);
         navi.classList.add('fixed');
-        navi.style.top=`${100}px`;
+        navi.style.top=`${scrollY}px`;
         navi.style.backgroundColor = "blue";
     }
     else
