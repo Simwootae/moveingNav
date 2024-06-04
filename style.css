@@ -21,7 +21,7 @@
 {
     position: absolute;
     width: 100%;
-    top: 7.6%;
+    top: 6%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +32,7 @@
 
 .topNav ul
 {
-    width: 65%;
+    width: 75%;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -41,7 +41,7 @@
 .topNav ul #act  {color:orange}
 .topNav ul li{transition: all 1s;}
 .topNav ul li:hover {color: orange;}
-.topNav .right{width: 12%;}
+.topNav .right{width: 8%;}
 .topNav .right span i{transition: all 1s;}
 .topNav .right span i:hover{color: orange;}
 .topNav ul li{    padding-left: 1%;}
@@ -62,5 +62,5 @@
     background-image: url("./images/banner-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 700px;
 }
